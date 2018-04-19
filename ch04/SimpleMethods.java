@@ -14,6 +14,7 @@ public class SimpleMethods
     }
     private static void printSum(int x,int y)
     {
+        System.out.print(x+ " + " +y+ " = ");
         System.out.println(x+y);
     }
     private static void printBoolean(boolean isStudent)
