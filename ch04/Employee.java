@@ -39,12 +39,12 @@ public class Employee
         int currentYear= 2018;
         System.out.println("Your age is: "+(currentYear-birthYear));
     }
-    public static void printEvenOrOdd(int eo)
+    private static void printEvenOrOdd(int eo)
     {
         System.out.println("Employee number is even/odd (1=odd, 0=even);");
         System.out.println(eo%2);
     }
-    public static void printGenerateSecretPassword(int password)
+    private static void printGenerateSecretPassword(int password)
     {
         Random random=new Random();
         int employeeNumber=101545;
