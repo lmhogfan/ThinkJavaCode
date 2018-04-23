@@ -1,6 +1,7 @@
 public class Exercise {
 
     public static void main(String[] args) {
+
         boolean flag1 = isHoopy(202);
         boolean flag2 = isFrabjuous(202);
         System.out.println(flag1);
