@@ -20,6 +20,6 @@ public class LoopTestF
             x=in.nextInt();
         }
         System.out.println("The final total is: "+sum);
-        return x;
+        return sum;
     }
 }
